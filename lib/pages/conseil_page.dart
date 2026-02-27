@@ -93,15 +93,6 @@ class _ConseilPageState extends State<ConseilPage> {
                   ),
                 ],
               ),
-              ListView.builder(shrinkWrap: true,
-              physics: NeverScrollableScrollPhysics(),
-              itemCount: conseils.length,
-              itemBuilder: (context,index){
-                return ListTile(
-                  title: Text(conseils[index].conseilTexte),);
-    
-              },
-              ),
             ],
           ),
         ),
